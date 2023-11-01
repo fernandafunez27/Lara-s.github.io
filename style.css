@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Merriweather:ital,wght@1,300&family=Urbanist:wght@100&display=swap');
+
+header{
+    background-color: black;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+
+.logo img, svg {
+    width: 75px;
+    height: 75px;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+header ul li{
+   margin: 5px;
+}
+
+.quitar{
+    text-decoration: none;
+    color: white;
+
+}
+
+li{
+    font-family: 'Abel', sans-serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Urbanist', sans-serif;
+    font-size:large;
+    padding: 10px;
+}
+
+.botones{
+    border-color:white;
+    border-radius:10px;
+    background-color: black;
+    color: white;
+}
+
+.presentacion{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 0 0 20px;
+}
+
+.presentacion h1{
+    font-size: 35px;
+    font-weight: 600;
+    color:rgb(0, 0, 0);
+    font-family: 'Abel', sans-serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Urbanist', sans-serif;
+
+}
+
+.presentacion p{
+    width: 70%;
+    font-size: 30px;
+    padding: 10px;
+    font-family: 'Abel', sans-serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Urbanist', sans-serif;
+    
+
+}
